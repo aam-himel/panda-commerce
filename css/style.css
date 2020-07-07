@@ -1,0 +1,80 @@
+.buy-now-btn {
+  background: linear-gradient(to bottom, #ff4343, #eb3e83c2);
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+
+.buy-now-btn:hover {
+  transform: translateY(-5px);
+}
+
+.price {
+  margin: 2rem 0;
+}
+.orange-bg {
+  background-color: #feeae9;
+  border-radius: 1rem;
+}
+
+.headphone {
+  padding: 1rem;
+}
+.links-color {
+  color: #ff9d00;
+}
+.sec-heading {
+  color: black;
+}
+.categories {
+  color: white;
+}
+
+.cat1,
+.cat2,
+.cat3 {
+  border-radius: 1rem;
+}
+.cat1 {
+  background: linear-gradient(to right bottom, #ff9d35da, #ffd119e3);
+}
+
+.cat2 {
+  background: linear-gradient(to right bottom, #ff4e95, #ff1d75);
+}
+
+.cat3 {
+  background: linear-gradient(to right bottom, #4289ff, #3f07f8);
+}
+
+.card {
+  border-radius: 1rem;
+  box-shadow: -6px -6px 20px rgba(255, 255, 255, 0.8),
+    6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  cursor: pointer;
+  box-shadow: inset -6px -6px 10px rgba(255, 255, 255, 0.8),
+    inset 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#subscribe {
+  background-color: #feeae9;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-sent {
+  /* background: linear-gradient(to right, #ff6349, #ff29a7); */
+  background: linear-gradient(to right bottom, #ffcc00, #ff5e00);
+  font-weight: 700;
+  color: white;
+}
